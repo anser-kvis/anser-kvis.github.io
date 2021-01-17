@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: ภาษาไทยทดสอบ
 author: pp_331
 published: true
 ---
