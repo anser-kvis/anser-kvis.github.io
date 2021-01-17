@@ -2,6 +2,7 @@
 published: true
 layout: post
 author: pp_331
+title: นี่คือพาดหัวข่าว
 ---
 ## นี่คือพาดหัวข่าวรอง
 
