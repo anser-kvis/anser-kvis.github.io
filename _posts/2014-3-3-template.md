@@ -7,8 +7,11 @@ title: นี่คือพาดหัวข่าว
 ## นี่คือพาดหัวข่าวรอง
 
 ### ไฮไลต์
-
-> This is a quote, words full of wisdom that someone important said and can make the reader get inspired.
+    
+  <blockquote>
+    <p> This is a quote, words full of wisdom that someone important said and can make the reader get inspired.
+</p>
+  </blockquote>      
 
 นี่คือเนื้อความภาษาไทย This is English Text
 
