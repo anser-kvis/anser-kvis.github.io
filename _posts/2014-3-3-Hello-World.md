@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+author: pp_331
 published: true
 ---
 <p>โอ้อ่าพระทรงศรี อิสตรี ณ โลกา พิศเพ่งสกุณณา มสยาสุวา <br />
