@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   /*font-weight: bold;*/
 
-  line-height: 1.5;
+  line-height: 2.0;
   margin: 1em 0 20px;
   padding: 0;
 
@@ -199,13 +199,13 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 16px 0 0 0;
   color: $gray;
   font-size: 16px;
 
@@ -258,12 +258,21 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
   }
+  blockquote:after {                                                       
+  content: close-quote;
+  vertical-align: bottom;
+}
+
+blockquote:before {                                     
+  content: open-quote;
+  vertical-align: top;
+}
 
   .comments {
     margin-top: 10px;
