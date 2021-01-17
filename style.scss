@@ -7,6 +7,8 @@
 
 @import "reset";
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -33,7 +35,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
-  font-weight: bold;
+  /*font-weight: bold;*/
 
   line-height: 1.7;
   margin: 1em 0 15px;
