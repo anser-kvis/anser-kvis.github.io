@@ -8,6 +8,7 @@
 @import "reset";
 @import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -21,7 +22,8 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+	font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px/1.4;
   color: $darkGray;
 }
 
@@ -33,7 +35,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $Kanit;
+  font-family: 'Kanit', sans-serif;
   color: $darkerGray;
   /*font-weight: bold;*/
 
