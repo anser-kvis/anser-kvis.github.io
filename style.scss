@@ -7,7 +7,7 @@
 
 @import "reset";
 @import "variables";
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 // Syntax highlighting @import is at the bottom of this file
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   /*font-weight: bold;*/
 
-  line-height: 1.7;
+  line-height: 20px;
   margin: 1em 0 18px;
   padding: 0;
 
