@@ -21,11 +21,20 @@ published: true
 
 <!-- Look the author details up from the site config. -->
 {% assign author = site.data.authors[page.author] %}
+{% assign phtg = site.data.phtg[page.phtg] %}
 
 <!-- Output author details if some exist. -->
 {% if author %}
     <span>
         <!-- Personal Info. -->
-        By <a href="{{ author.web }}">{{ author.name }}</a>
+        Written by <a>{{ author.name }}</a>
     </span>
 {% endif %}
+
+{% if phtg %}
+    <span>
+        <!-- Personal Info. -->
+        Photograph by <a>{{ phtg.name }}</a>
+    </span>
+{% endif %}
+
