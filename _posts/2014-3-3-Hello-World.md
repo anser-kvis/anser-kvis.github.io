@@ -2,7 +2,7 @@
 layout: post
 title: ภาษาไทยทดสอบ
 author: pp_331
-published: true
+published: false
 ---
 <p>โอ้อ่าพระทรงศรี อิสตรี ณ โลกา พิศเพ่งสกุณณา มสยาสุวารี <br />
 難波津に　咲夜この花　冬ごもり </p>
