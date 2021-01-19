@@ -1,7 +1,8 @@
 ---
 layout: post
 title: พรสันต์ เลิศวิทยาวิวัฒน์&#58; การตัดสินใจเพื่อประโยชน์สูงสุดในวิกฤตโรค ระบาด
-author: pp_331
+author: np_318
+phtg: pp_331
 published: true
 ---
 ##
