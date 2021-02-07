@@ -20,7 +20,7 @@ published: true
 </article>
 
 <!-- Look the author details up from the site config. -->
-{% assign intw = site.data.authors[page.intw] %}
+{% assign intw = site.data.intw[page.intw] %}
 {% assign author = site.data.authors[page.author] %}
 {% assign phtg = site.data.phtg[page.phtg] %}
 
@@ -28,7 +28,7 @@ published: true
 {% if intw %}
     <span>
         <!-- Personal Info. -->
-        <br> Interviewed by <a>{{ intw.name }}</a>
+        <br> Interviewed by <a>{{ intw.name }}</a> on {{ page.iwdate | date: "%B %e, %Y" }}
     </span> 
 {% endif %}
 
