@@ -28,14 +28,14 @@ published: true
 {% if intw %}
     <span>
         <!-- Personal Info. -->
-        <br> Interviewed by <a>{{ intw.name }}</a> on {{ page.iwdate | date: "%B %e, %Y" }}
+        Interviewed by <a>{{ intw.name }}</a> on {{ page.iwdate | date: "%B %e, %Y" }}
     </span> 
 {% endif %}
 
 {% if author %}
     <span>
         <!-- Personal Info. -->
-        Written by <a>{{ author.name }}</a>
+        <br> Written by <a>{{ author.name }}</a>
     </span>
 {% endif %}
 
