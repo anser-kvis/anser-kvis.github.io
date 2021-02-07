@@ -7,7 +7,7 @@ published: true
   <h1>{{ page.title }}</h1>
   
 <div class="date">
-  {{ page.date | date: "%B %e, %Y" }}
+  {{ page.date | date: "%A, %e %B %Y" }}
 </div>
 
   <div class="entry">
@@ -28,7 +28,7 @@ published: true
 {% if intw %}
     <span>
         <!-- Personal Info. -->
-        Interviewed by <a>{{ intw.name }}</a> on {{ page.iwdate | date: "%B %e, %Y" }}
+        Interviewed by <a>{{ intw.name }}</a> on {{ page.iwdate | date: "%e %B %Y" }}
     </span> 
 {% endif %}
 
