@@ -20,10 +20,18 @@ published: true
 </article>
 
 <!-- Look the author details up from the site config. -->
+{% assign intw = site.data.authors[page.intw] %}
 {% assign author = site.data.authors[page.author] %}
 {% assign phtg = site.data.phtg[page.phtg] %}
 
 <!-- Output author details if some exist. -->
+{% if intw %}
+    <span>
+        <!-- Personal Info. -->
+        <br> Interviewed by <a>{{ intw.name }}</a>
+    </span>
+{% endif %}
+
 {% if author %}
     <span>
         <!-- Personal Info. -->
