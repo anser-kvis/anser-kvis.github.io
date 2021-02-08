@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: ANSER<sup>BETA</sup>
+name: ANSER
 
 # Short bio or description (displayed in the header)
 description: Honks all viewpoints
@@ -78,12 +78,9 @@ gems:
 
 # Exclude these files from your production _site
 exclude:
-  #- Gemfile
-  #- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
   
-  htmlcleaner:
-    allowed_tags: [ div, span, p, br, hr, s, u, strong, em, i, b, li, ul, ol, mark, blockquote, pre, code, tt, h1, h2, h3, h4, h5, h6, dd, dl, dt, table, tbody, thead, tfoot, th, td, tr, a, img, address, abbr, iframe, caption, sub, sup, figure, figcaption ]
-    allowed_attributes: [ id, class, style, name, value, href, src, alt, title, width, height, frameborder, allowfullscreen, scrolling, target, colspan, rowspan ]
